@@ -13,8 +13,8 @@ import {
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import * as Location from "expo-location";
-const api_key = "b03bfee75a2f29f4c48ec39b1653d17f"; // Replace with your own API key.
-let url = `http://api.openweathermap.org/data/3.0/onecall?&units=metric&exclude=minutely&appid=${api_key}`;
+
+let url = `http://api.openweathermap.org/data/3.0/onecall?&units=metric&exclude=minutely&appid=b03bfee75a2f29f4c48ec39b1653d17f`;
 let counter = 0;
 const Weather = () => {
   const [Forecast, setForecast] = useState(null);
